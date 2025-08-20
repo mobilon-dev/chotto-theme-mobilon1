@@ -4,9 +4,10 @@ import 'primeicons/primeicons.css'
 
 import App from './App.vue';
 
-import './assets/style.css'
+import '../node_modules/@mobilon-dev/chotto/dist/chotto.css';
+import './assets/style.css';
 
-const pinia = createPinia()
+const pinia = createPinia();
 
 const app = createApp(App);
 
