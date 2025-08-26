@@ -12,7 +12,8 @@
 import { onMounted } from 'vue';
 import moment from 'moment';
 
-import ChatApp from './MobilonExtendedChatApp.vue'
+import ChatApp from './components/AppLayout.vue'
+// import ChatApp from './MobilonExtendedChatApp.vue'
 
 import {
   messages, chats, channels,

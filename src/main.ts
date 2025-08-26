@@ -1,7 +1,6 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia'
 import 'primeicons/primeicons.css'
-
 import App from './App.vue';
 
 import '../node_modules/@mobilon-dev/chotto/dist/chotto.css';
